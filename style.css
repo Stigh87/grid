@@ -1,0 +1,35 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+div.page{
+    background-color: rgb(199, 212, 186);
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header, header, header"
+    "menu, content, content"
+    "footer, footer, footer";
+}
+
+div.header{
+background-color: aqua;
+grid-area: header;
+}
+
+div.menu{
+background-color: blueviolet;
+grid-area: menu;
+}
+
+div.content{
+background-color: coral;
+grid-area: content;
+}
+
+div.footer{
+background-color: forestgreen;
+grid-area: footer;
+}
